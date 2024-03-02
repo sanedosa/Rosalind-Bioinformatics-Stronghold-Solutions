@@ -23,7 +23,6 @@ table = {"UUU":"F",     "CUU": "L",      "AUU": "I",      "GUU":" V",
 "UGA": "Stop",  "CGA": "R",     "AGA": "R",     "GGA":"G",
 "UGG":"W",    "CGG": "R",     "AGG" :"R",     "GGG":"G", }
 
-count=1
 for i in range(0, len(string), 3) :
     codon.append(string[i])
     codon.append(string[i+1])
