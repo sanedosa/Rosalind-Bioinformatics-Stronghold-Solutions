@@ -29,8 +29,7 @@ for n in range(0, len(dna[0])):
     C.append(dic.get("C"))
     G.append(dic.get("G"))
     T.append(dic.get("T"))
-    top= max(dic, key=dic.get)
-    consensus.append(top)
+    consensus.append(max(dic, key=dic.get))
     dic={"A":0, "C":0, "G":0, "T":0}
 
 print("".join(consensus))
