@@ -6,7 +6,7 @@ codon=[]
 f =open("rosalind_prot.txt", "r")
 string=f.read()
 # string = "AUGGCCAUGGCGCCCAGAACUGAGAUCAAUAGUACCCGUAUUAACGGGUGA"
-table = {"UUU":"F",     "CUU": "L",      "AUU": "I",      "GUU":" V",
+table = {"UUU":"F",     "CUU": "L",      "AUU": "I",      "GUU":"V",
 "UUC" :"F",      "CUC": "L",      "AUC": "I",      "GUC" :"V",
 "UUA" :"L",      "CUA": "L",      "AUA": "I",      "GUA": "V",
 "UUG" :"L",      "CUG": "L",      "AUG": "M",      "GUG": "V",
